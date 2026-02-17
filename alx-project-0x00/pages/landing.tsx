@@ -18,6 +18,11 @@ const Landing: React.FC = () => {
 
         <Button
           title="Large Button"
+          styles="px-6 py-3 text-lg bg-blue-500 text-white rounded-lg"
+        />
+
+        <Button
+          title="Full Button"
           styles="px-6 py-3 text-lg bg-blue-500 text-white rounded-full"
         />
       </div>
